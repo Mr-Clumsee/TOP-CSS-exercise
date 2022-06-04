@@ -1,0 +1,39 @@
+.para,
+.small-para {
+  color: hsl(0, 100%, 50%);
+}
+
+.para {
+    font-size: 22px;
+  }
+/*making sure para comes before small-para*/
+.small-para {
+  font-size: 14px;
+}
+
+/*
+use id tag instead of class
+i.e use # and not .
+*/
+#confirm-button {
+  background: green;
+  color: white;
+  font-weight: bold;
+} 
+
+.button {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+}
+
+.text {
+    color: green;
+    font-size: 22px;
+  }
+
+.child {
+  color: red;
+  font-size: 14px;
+}
+
